@@ -1,0 +1,1597 @@
+{
+  "drugs": 
+  {
+      "1": {
+      "brandName": "Lipitor",
+      "genericName": "atorvastatin",
+      "drugClass": "HMG Co-A reductase inhibitor (statin)",
+      "indication": "Hyperlipidemia",
+      "schedule": "",
+      "notes": ""
+      },
+      "2": {
+      "brandName": "Lipitor",
+      "genericName": "atorvastatin",
+      "drugClass": "HMG Co-A reductase inhibitor (statin)",
+      "indication": "Hyperlipidemia",
+      "schedule": "",
+      "notes": ""
+      },
+      "3": {
+      "brandName": "Mevacor",
+      "genericName": "lovastatin",
+      "drugClass": "HMG Co-A reductase inhibitor (statin)",
+      "indication": "Hyperlipidemia",
+      "schedule": "",
+      "notes": ""
+      },
+      "4": {
+      "brandName": "Pravachol",
+      "genericName": "pravastatin",
+      "drugClass": "HMG Co-A reductase inhibitor (statin)",
+      "indication": "Hyperlipidemia",
+      "schedule": "",
+      "notes": ""
+      },
+      "5": {
+      "brandName": "Zocor",
+      "genericName": "simvastatin",
+      "drugClass": "HMG Co-A reductase inhibitor (statin)",
+      "indication": "Hyperlipidemia",
+      "schedule": "",
+      "notes": ""
+      },
+      "7": {
+      "brandName": "Amoxil",
+      "genericName": "amoxicillin",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+          },
+      "8": {
+      "brandName": "Augmentin",
+      "genericName": "amoxicillin/clavulanic acid",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "9": {
+      "brandName": "Cipro",
+      "genericName": "ciprofloxacin",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "10": {
+      "brandName": "Keflex",
+      "genericName": "cephalexin",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "11": {
+      "brandName": "Pen VK",
+      "genericName": "penicillin",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "12": {
+      "brandName": "Zithromax",
+      "genericName": "azithromycin",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "13": {
+      "brandName": "Vibramycin",
+      "genericName": "doxycycline",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "14": {
+      "brandName": "Septra or Bactrim",
+      "genericName": "sulfamethoxazole/trimethoprim",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "15": {
+      "brandName": "Tenormin",
+      "genericName": "atenolol",
+      "drugClass": "Beta blocker",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "16": {
+      "brandName": "Coreg",
+      "genericName": "carvedilol",
+      "drugClass": "Beta blocker",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "17": {
+      "brandName": "Toprol XL or Lopressor",
+      "genericName": "metoprolol succinate (for Toprol XL) or metoprolol tartrate (for Lopressor)",
+      "drugClass": "Beta blocker",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "18": {
+      "brandName": "Inderal",
+      "genericName": "propranolol",
+      "drugClass": "Beta blocker",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "19": {
+      "brandName": "Lotensin",
+      "genericName": "benazepril",
+      "drugClass": "Angiotensin converting enzyme inhibitor (ACEI)",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "20": {
+      "brandName": "Vasotec",
+      "genericName": "enalapril",
+      "drugClass": "Angiotensin converting enzyme-inhibitor (ACEI)",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "21": {
+      "brandName": "Zestril or Prinivil",
+      "genericName": "lisinopril",
+      "drugClass": "Angiotensin converting enzyme inhibitor (ACEI)",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "22": {
+      "brandName": "Altace",
+      "genericName": "ramipril",
+      "drugClass": "Angiotensin converting enzyme-inhibitor (ACEI)",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "23": {
+      "brandName": "Norvasc",
+      "genericName": "amlodipine",
+      "drugClass": "Calcium channel blocker",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "24": {
+      "brandName": "Adalat CC or Procardia XL",
+      "genericName": "nifedipine",
+      "drugClass": "Calcium channel blocker",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "25": {
+      "brandName": "Thalitone",
+      "genericName": "chlorthalidone",
+      "drugClass": "Diuretic",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "26": {
+      "brandName": "Microzide",
+      "genericName": "hydrochlorothiazide",
+      "drugClass": "Diuretic",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "27": {
+      "brandName": "Dyazide or Maxzide",
+      "genericName": "triamterene/hydrochlorothiazide",
+      "drugClass": "Diuretic",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "28": {
+      "brandName": "Bumex",
+      "genericName": "bumetanide",
+      "drugClass": "Diuretic",
+      "indication": "Edema",
+      "schedule": "",
+      "notes": ""
+      },
+      "29": {
+      "brandName": "Lasix",
+      "genericName": "furosemide",
+      "drugClass": "Diuretic",
+      "indication": "Edema",
+      "schedule": "",
+      "notes": ""
+      },
+      "30": {
+      "brandName": "Imitrex",
+      "genericName": "sumatriptan",
+      "drugClass": "Serotonin receptor agonist (triptan)",
+      "indication": "Migraines",
+      "schedule": "",
+      "notes": ""
+      },
+      "31": {
+      "brandName": "Zomig",
+      "genericName": "zolmitriptan",
+      "drugClass": "Serotonin receptor agonist (triptan)",
+      "indication": "Migraines",
+      "schedule": "",
+      "notes": ""
+      },
+      "32": {
+      "brandName": "Celebrex",
+      "genericName": "celecoxib",
+      "drugClass": "Cyclo-oxygenase-2 (COX-2) inhibitor",
+      "indication": "Pain",
+      "schedule": "",
+      "notes": ""
+      },
+      "33": {
+      "brandName": "Mobic",
+      "genericName": "meloxicam",
+      "drugClass": "Non-Steroidal Anti-inflammatory (NSAID)",
+      "indication": "Pain",
+      "schedule": "",
+      "notes": ""
+      },
+      "34": {
+      "brandName": "Dilaudid",
+      "genericName": "hydromorphone",
+      "drugClass": "Opioid analgesic",
+      "indication": "Pain",
+      "schedule": "CII",
+      "notes": ""
+      },
+      "35": {
+      "brandName": "MS Contin",
+      "genericName": "morphine extended release",
+      "drugClass": "Opioid analgesic",
+      "indication": "Pain",
+      "schedule": "CII",
+      "notes": ""
+      },
+      "36": {
+      "brandName": "Oxycontin",
+      "genericName": "oxycodone CR",
+      "drugClass": "Opioid analgesic",
+      "indication": "Pain",
+      "schedule": "CII",
+      "notes": ""
+      },
+      "37": {
+      "brandName": "Tylenol #3 or Tylenol #4",
+      "genericName": "acetaminophen/codeine",
+      "drugClass": "Opioid analgesic",
+      "indication": "Pain",
+      "schedule": "CIII",
+      "notes": ""
+      },
+      "38": {
+      "brandName": "Norco or Vicodin",
+      "genericName": "hydrocodone/acetaminophen",
+      "drugClass": "Opioid analgesic",
+      "indication": "Pain",
+      "schedule": "CII",
+      "notes": ""
+      },
+      "39": {
+      "brandName": "Endocet or Percocet",
+      "genericName": "oxycodone/acetaminophen",
+      "drugClass": "Opioid analgesic",
+      "indication": "Pain",
+      "schedule": "CII",
+      "notes": ""
+      },
+      "40": {
+      "brandName": "Ultram",
+      "genericName": "tramadol",
+      "drugClass": "Central active analgesic",
+      "indication": "Pain",
+      "schedule": "CIV",
+      "notes": ""
+      },
+      "41": {
+      "brandName": "Neurontin",
+      "genericName": "gabapentin",
+      "drugClass": "Analgesic",
+      "indication": "Neuropathic pain",
+      "schedule": "",
+      "notes": ""
+      },
+      "42": {
+      "brandName": "Lyrica",
+      "genericName": "pregabalin",
+      "drugClass": "Analgesic",
+      "indication": "Neuropathic pain",
+      "schedule": "CV",
+      "notes": ""
+      },
+      "43": {
+      "brandName": "Buspar",
+      "genericName": "buspirone",
+      "drugClass": "Anxiolytic",
+      "indication": "Anxiety",
+      "schedule": "",
+      "notes": ""
+      },
+      "44": {
+      "brandName": "Klonopin",
+      "genericName": "clonazepam",
+      "drugClass": "Benzodiazepine (BZD)",
+      "indication": "Anxiety",
+      "schedule": "CIV",
+      "notes": ""
+      },
+      "45": {
+      "brandName": "Xanax",
+      "genericName": "alprazolam",
+      "drugClass": "Benzodiazepine (BZD)",
+      "indication": "Anxiety",
+      "schedule": "CIV",
+      "notes": ""
+      },
+      "46": {
+      "brandName": "Ativan",
+      "genericName": "lorazepam",
+      "drugClass": "Benzodiazepine (BZD)",
+      "indication": "Anxiety",
+      "schedule": "CIV",
+      "notes": ""
+      },
+      "47": {
+      "brandName": "Valium",
+      "genericName": "diazepam",
+      "drugClass": "Benzodiazepine (BZD)",
+      "indication": "Anxiety",
+      "schedule": "CIV",
+      "notes": ""
+      },
+      "48": {
+      "brandName": "Restoril",
+      "genericName": "temazepam",
+      "drugClass": "Benzodiazepine (BZD)",
+      "indication": "Anxiety",
+      "schedule": "CIV",
+      "notes": ""
+      },
+      "49": {
+      "brandName": "Ambien",
+      "genericName": "zolpidem",
+      "drugClass": "Non-benzodiazepine (Non-BZD) hypnotic",
+      "indication": "Insomnia",
+      "schedule": "CIV",
+      "notes": ""
+      },
+      "50": {
+      "brandName": "Lunesta",
+      "genericName": "eszopiclone",
+      "drugClass": "Non-benzodiazepine (Non-BZD) hypnotic",
+      "indication": "Insomnia",
+      "schedule": "CIV",
+      "notes": ""
+      },
+      "51": {
+      "brandName": "Eliquis",
+      "genericName": "apixaban",
+      "drugClass": "Anticoagulant",
+      "indication": "Atrial fibrillation, blood clots",
+      "schedule": "",
+      "notes": ""
+      },
+      "52": {
+      "brandName": "Pradaxa",
+      "genericName": "dabigatran",
+      "drugClass": "Anticoagulant",
+      "indication": "Atrial fibrillation, blood clots",
+      "schedule": "",
+      "notes": ""
+      },
+      "53": {
+      "brandName": "Xarelto",
+      "genericName": "rivaroxaban",
+      "drugClass": "Anticoagulant",
+      "indication": "Atrial fibrillation, blood clots",
+      "schedule": "",
+      "notes": ""
+      },
+      "54": {
+      "brandName": "Coumadin",
+      "genericName": "warfarin",
+      "drugClass": "Anticoagulant",
+      "indication": "Atrial fibrillation, blood clots",
+      "schedule": "",
+      "notes": ""
+      },
+      "55": {
+      "brandName": "Lovenox",
+      "genericName": "enoxaparin",
+      "drugClass": "Anticoagulant",
+      "indication": "Blood clots",
+      "schedule": "",
+      "notes": ""
+      },
+      "56": {
+      "brandName": "Brilinta",
+      "genericName": "ticagrelor",
+      "drugClass": "Antiplatelet",
+      "indication": "Blood clots",
+      "schedule": "",
+      "notes": ""
+      },
+      "57": {
+      "brandName": "Effient",
+      "genericName": "prasugrel",
+      "drugClass": "Antiplatelet",
+      "indication": "Blood clots",
+      "schedule": "",
+      "notes": ""
+      },
+      "58": {
+      "brandName": "Plavix",
+      "genericName": "clopidogrel",
+      "drugClass": "Antiplatelet",
+      "indication": "Blood clots",
+      "schedule": "",
+      "notes": ""
+      },
+      "59": {
+      "brandName": "Uroxatral",
+      "genericName": "alfuzosin",
+      "drugClass": "Alpha blocker",
+      "indication": "Benign prostatic hyperplasia (BPH)",
+      "schedule": "",
+      "notes": ""
+      },
+      "60": {
+      "brandName": "Cardura",
+      "genericName": "doxazosin",
+      "drugClass": "Alpha blocker",
+      "indication": "Benign prostatic hyperplasia (BPH)",
+      "schedule": "",
+      "notes": ""
+      },
+      "61": {
+      "brandName": "Hytrin",
+      "genericName": "terazosin",
+      "drugClass": "Alpha blocker",
+      "indication": "Benign Prostatic Hyperplasia (BPH)",
+      "schedule": "",
+      "notes": ""
+      },
+      "62": {
+      "brandName": "Flomax",
+      "genericName": "tamsulosin",
+      "drugClass": "Alpha blocker",
+      "indication": "Benign prostatic hyperplasia (BPH)",
+      "schedule": "",
+      "notes": ""
+      },
+      "63": {
+      "brandName": "Proscar",
+      "genericName": "finasteride",
+      "drugClass": "5-alpha reductase inhibitor",
+      "indication": "Benign prostatic hyperplasia (BPH)",
+      "schedule": "",
+      "notes": ""
+      },
+      "64": {
+      "brandName": "Zanaflex",
+      "genericName": "tizanidine",
+      "drugClass": "Alpha agonist",
+      "indication": "Muscle spasms",
+      "schedule": "",
+      "notes": ""
+      },
+      "65": {
+      "brandName": "Flexeril",
+      "genericName": "cyclobenzaprine",
+      "drugClass": "Muscle relaxant",
+      "indication": "Muscle spasms",
+      "schedule": "",
+      "notes": ""
+      },
+      "66": {
+      "brandName": "Lioresal",
+      "genericName": "baclofen",
+      "drugClass": "Muscle relaxant",
+      "indication": "Muscle spasms",
+      "schedule": "",
+      "notes": ""
+      },
+      "67": {
+      "brandName": "Robaxin",
+      "genericName": "methocarbamol",
+      "drugClass": "Muscle relaxant",
+      "indication": "Muscle spasms",
+      "schedule": "",
+      "notes": ""
+      },
+      "68": {
+      "brandName": "Soma",
+      "genericName": "carisoprodol",
+      "drugClass": "Muscle relaxant",
+      "indication": "Muscle spasms",
+      "schedule": "CIV",
+      "notes": ""
+      },
+      "69": {
+      "brandName": "Imdur",
+      "genericName": "isosorbide mononitrate",
+      "drugClass": "Nitrates",
+      "indication": "Angina",
+      "schedule": "",
+      "notes": ""
+      },
+      "70": {
+      "brandName": "Nitrostat or Nitrodur",
+      "genericName": "nitroglycerin",
+      "drugClass": "Nitrates",
+      "indication": "Angina",
+      "schedule": "",
+      "notes": ""
+      },
+      "71": {
+      "brandName": "Proventil or Ventolin",
+      "genericName": "albuterol",
+      "drugClass": "Beta-agonist",
+      "indication": "Asthma",
+      "schedule": "",
+      "notes": ""
+      },
+      "72": {
+      "brandName": "Nexium",
+      "genericName": "esomeprazole",
+      "drugClass": "Protein pump inhibitor (PPI)",
+      "indication": "Acid Reflux",
+      "schedule": "",
+      "notes": ""
+      },
+      "73": {
+      "brandName": "Protonix",
+      "genericName": "pantoprazole",
+      "drugClass": "Proton pump inhibitor (PPI)",
+      "indication": "Gastroesophageal Reflux Disease (GERD)",
+      "schedule": "",
+      "notes": ""
+      },
+      "74": {
+      "brandName": "Lomotil",
+      "genericName": "diphenoxylate/atropine",
+      "drugClass": "Opioid/anti-cholinergic",
+      "indication": "Diarrhea",
+      "schedule": "CV",
+      "notes": ""
+      },
+      "75": {
+      "brandName": "Digitek or Lanoxin",
+      "genericName": "digoxin",
+      "drugClass": "Cardiac glycoside",
+      "indication": "Heart failure",
+      "schedule": "",
+      "notes": ""
+      },
+      "76": {
+      "brandName": "Medrol or Solu-Medrol",
+      "genericName": "methylprednisolone",
+      "drugClass": "Corticosteroid",
+      "indication": "Inflammation",
+      "schedule": "",
+      "notes": ""
+      },
+      "77": {
+      "brandName": "Deltasone",
+      "genericName": "prednisone",
+      "drugClass": "Corticosteroid",
+      "indication": "Inflammation or immunosuppressant",
+      "schedule": "",
+      "notes": ""
+      },
+      "78": {
+      "brandName": "Wellbutrin",
+      "genericName": "bupropion",
+      "drugClass": "Antidepressant",
+      "indication": "Depression or tobacco cessation",
+      "schedule": "",
+      "notes": ""
+      },
+      "79": {
+      "brandName": "Celexa",
+      "genericName": "citalopram",
+      "drugClass": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+      "indication": "Depression",
+      "schedule": "",
+      "notes": ""
+      },
+      "80": {
+      "brandName": "Lexapro",
+      "genericName": "escitalopram",
+      "drugClass": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+      "indication": "Depression",
+      "schedule": "",
+      "notes": ""
+      },
+      "81": {
+      "brandName": "Paxil",
+      "genericName": "paroxetine",
+      "drugClass": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+      "indication": "Depression",
+      "schedule": "",
+      "notes": ""
+      },
+      "82": {
+      "brandName": "Prozac",
+      "genericName": "fluoxetine",
+      "drugClass": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+      "indication": "Depression",
+      "schedule": "",
+      "notes": ""
+      },
+      "83": {
+      "brandName": "Zoloft",
+      "genericName": "sertraline",
+      "drugClass": "Selective Serotonin Reuptake Inhibitor (SSRI)",
+      "indication": "Depression",
+      "schedule": "",
+      "notes": ""
+      },
+      "84": {
+      "brandName": "Desyrel",
+      "genericName": "trazodone",
+      "drugClass": "Serotonin receptor antagonist",
+      "indication": "Depression or insomnia",
+      "schedule": "",
+      "notes": ""
+      },
+      "85": {
+      "brandName": "Cymbalta",
+      "genericName": "duloxetine",
+      "drugClass": "Serotonin-norepinephrine reuptake inhibitor (SNRI)",
+      "indication": "Depression",
+      "schedule": "",
+      "notes": ""
+      },
+      "86": {
+      "brandName": "Effexor",
+      "genericName": "venlafaxine",
+      "drugClass": "Serotonin-norepinephrine reuptake inhibitor (SNRI)",
+      "indication": "Depression",
+      "schedule": "",
+      "notes": ""
+      },
+      "87": {
+      "brandName": "Elavil",
+      "genericName": "amitriptyline",
+      "drugClass": "Tricyclic antidepressant (TCA)",
+      "indication": "Depression",
+      "schedule": "",
+      "notes": ""
+      },
+      "88": {
+      "brandName": "Pamelor",
+      "genericName": "nortriptyline",
+      "drugClass": "Tricyclic antidepressant (TCA)",
+      "indication": "Depression",
+      "schedule": "",
+      "notes": ""
+      },
+      "89": {
+      "brandName": "Remeron",
+      "genericName": "mirtazapine",
+      "drugClass": "Antidepressant",
+      "indication": "Depression",
+      "schedule": "",
+      "notes": ""
+      },
+      "90": {
+      "brandName": "Singulair",
+      "genericName": "montelukast",
+      "drugClass": "Leukotriene receptor antagonist",
+      "indication": "Asthma",
+      "schedule": "",
+      "notes": ""
+      },
+      "91": {
+      "brandName": "QVAR",
+      "genericName": "beclomethasone",
+      "drugClass": "Corticosteroid",
+      "indication": "Asthma",
+      "schedule": "",
+      "notes": ""
+      },
+      "92": {
+      "brandName": "Flovent",
+      "genericName": "fluticasone",
+      "drugClass": "Corticosteroid",
+      "indication": "Asthma",
+      "schedule": "",
+      "notes": ""
+      },
+      "93": {
+      "brandName": "Xolair",
+      "genericName": "Omalizumab",
+      "drugClass": "IGE antibody",
+      "indication": "Asthma",
+      "schedule": "",
+      "notes": ""
+      },
+      "94": {
+      "brandName": "Advair",
+      "genericName": "fluticasone/salmeterol",
+      "drugClass": "Corticosteroid/Beta-agonist",
+      "indication": "Asthma, chronic obstructive pulmonary disease (COPD)",
+      "schedule": "",
+      "notes": ""
+      },
+      "95": {
+      "brandName": "Breo Ellipta",
+      "genericName": "fluticasone/vilanterol",
+      "drugClass": "Corticosteroid/Beta-agonist",
+      "indication": "Asthma, chronic obstructive pulmonary disease (COPD)",
+      "schedule": "",
+      "notes": ""
+      },
+      "96": {
+      "brandName": "Symbicort",
+      "genericName": "budesonide/formoterol",
+      "drugClass": "Corticosteroid/Beta-agonist",
+      "indication": "Asthma, chronic obstructive pulmonary disease (COPD)",
+      "schedule": "",
+      "notes": ""
+      },
+      "97": {
+      "brandName": "Spiriva",
+      "genericName": "tiotropium",
+      "drugClass": "Anticholinergic",
+      "indication": "Chronic obstructive pulmonary disease (COPD)",
+      "schedule": "",
+      "notes": ""
+      },
+      "98": {
+      "brandName": "Combivent Respimat",
+      "genericName": "ipratropium/albuterol",
+      "drugClass": "Anticholinergic/Beta-agonist",
+      "indication": "Chronic obstructive pulmonary disease (COPD)",
+      "schedule": "",
+      "notes": ""
+      },
+      "99": {
+      "brandName": "Diflucan",
+      "genericName": "fluconazole",
+      "drugClass": "Antifungal",
+      "indication": "Fungal infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "100": {
+      "brandName": "Lidex",
+      "genericName": "fluocinonide",
+      "drugClass": "Corticosteroid",
+      "indication": "Dermatitis",
+      "schedule": "",
+      "notes": ""
+      },
+      "101": {
+      "brandName": "Elocon",
+      "genericName": "mometasone",
+      "drugClass": "Corticosteroid",
+      "indication": "Dermatitis",
+      "schedule": "",
+      "notes": ""
+      },
+      "102": {
+      "brandName": "Kenalog",
+      "genericName": "triamcinolone",
+      "drugClass": "Corticosteroid",
+      "indication": "Dermatitis",
+      "schedule": "",
+      "notes": ""
+      },
+      "103": {
+      "brandName": "Lantus or Basaglar",
+      "genericName": "insulin glargine",
+      "drugClass": "Insulin basal",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "104": {
+      "brandName": "Tresiba",
+      "genericName": "insulin degludec",
+      "drugClass": "Insulin basal",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "105": {
+      "brandName": "Humalog",
+      "genericName": "insulin lispro",
+      "drugClass": "Insulin bolus",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "106": {
+      "brandName": "Novolog",
+      "genericName": "insulin aspart",
+      "drugClass": "Insulin bolus",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "107": {
+      "brandName": "Glucophage",
+      "genericName": "metformin",
+      "drugClass": "Biguanide",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "108": {
+      "brandName": "Januvia",
+      "genericName": "sitagliptin",
+      "drugClass": "Dipeptidyl peptidase-4 inhibitor (DPP-4 inhibitor)",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "109": {
+      "brandName": "Onglyza",
+      "genericName": "saxagliptin",
+      "drugClass": "Dipeptidyl peptidase-4 inhibitor (DPP-4 inhibitor)",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "110": {
+      "brandName": "Ozempic or Rybelsus",
+      "genericName": "semaglutide",
+      "drugClass": "Glucagon-like peptide-1 receptor agonist (GLP-1 agonist)",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "111": {
+      "brandName": "Trulicity",
+      "genericName": "dulaglutide",
+      "drugClass": "Glucagon like peptide-1 receptor agonist (GLP-1 agonist)",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "112": {
+      "brandName": "Victoza or Saxenda",
+      "genericName": "liraglutide",
+      "drugClass": "Glucagon like peptide-1 receptor agonist (GLP-1 agonist)",
+      "indication": "Diabetes/obesity",
+      "schedule": "",
+      "notes": ""
+      },
+      "113": {
+      "brandName": "Monjaro",
+      "genericName": "tirzepatide",
+      "drugClass": "Glucose dependent insulinotropic polypeptide (GIP) and Glucoagon-like-peptide-1 (GLP-1) receptor agonist",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "114": {
+      "brandName": "Farxiga",
+      "genericName": "dapagliflozin",
+      "drugClass": "Sodium-glucose co-transporter-2 inhibitor (SGLT-2 inhibitor)",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "115": {
+      "brandName": "Jardiance",
+      "genericName": "empagliflozin",
+      "drugClass": "Sodium-glucose co-transporter-2 inhibitor (SGLT-2 inhibitor)",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "116": {
+      "brandName": "Amaryl",
+      "genericName": "glimepiride",
+      "drugClass": "Sulfonylurea",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "117": {
+      "brandName": "Diabeta or Micronase",
+      "genericName": "glyburide",
+      "drugClass": "Sulfonylurea",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "118": {
+      "brandName": "Glucotrol",
+      "genericName": "glipizide",
+      "drugClass": "Sulfonylurea",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "119": {
+      "brandName": "Actos",
+      "genericName": "pioglitazone",
+      "drugClass": "Thiazolidinedione (TZD)",
+      "indication": "Diabetes",
+      "schedule": "",
+      "notes": ""
+      },
+      "120": {
+      "brandName": "Armour Thyroid",
+      "genericName": "thyroid",
+      "drugClass": "Thyroid hormone replacement",
+      "indication": "Hypothyroidism",
+      "schedule": "",
+      "notes": ""
+      },
+      "121": {
+      "brandName": "Synthroid or Levoxyl",
+      "genericName": "levothyroxine",
+      "drugClass": "Thyroid hormone replacement",
+      "indication": "Hypothyroidism",
+      "schedule": "",
+      "notes": ""
+      },
+      "122": {
+      "brandName": "Betimol or Timoptic",
+      "genericName": "timolol",
+      "drugClass": "Beta blocker",
+      "indication": "Glaucoma",
+      "schedule": "",
+      "notes": ""
+      },
+      "123": {
+      "brandName": "Travatan Z",
+      "genericName": "travoprost",
+      "drugClass": "Prostaglandin analog",
+      "indication": "Glaucoma",
+      "schedule": "",
+      "notes": ""
+      },
+      "124": {
+      "brandName": "Xalatan",
+      "genericName": "latanoprost",
+      "drugClass": "Prostaglandin analog",
+      "indication": "Glaucoma",
+      "schedule": "",
+      "notes": ""
+      },
+      "125": {
+      "brandName": "Colcrys or Mitigare",
+      "genericName": "colchicine",
+      "drugClass": "Microtubule polymerization inhibitor",
+      "indication": "Gout",
+      "schedule": "",
+      "notes": ""
+      },
+      "126": {
+      "brandName": "Zyloprim",
+      "genericName": "allopurinol",
+      "drugClass": "Xanthine oxidase inhibitor",
+      "indication": "Gout",
+      "schedule": "",
+      "notes": ""
+      },
+      "127": {
+      "brandName": "Lopid",
+      "genericName": "gemfibrozil",
+      "drugClass": "Fibrate",
+      "indication": "Hypertriglyceridemia",
+      "schedule": "",
+      "notes": ""
+      },
+      "128": {
+      "brandName": "Tricor",
+      "genericName": "fenofibrate",
+      "drugClass": "Fibrate",
+      "indication": "Hypertriglyceridemia",
+      "schedule": "",
+      "notes": ""
+      },
+      "129": {
+      "brandName": "Lovaza",
+      "genericName": "omega-3 fatty acids",
+      "drugClass": "Omega-3 fatty acid",
+      "indication": "Hypertriglyceridemia",
+      "schedule": "",
+      "notes": ""
+      },
+      "130": {
+      "brandName": "Zetia",
+      "genericName": "ezetimibe",
+      "drugClass": "Antihyperlipidemic",
+      "indication": "Hyperlipidemia",
+      "schedule": "",
+      "notes": ""
+      },
+      "131": {
+      "brandName": "Vytorin",
+      "genericName": "ezetimibe/simvastatin",
+      "drugClass": "Antihyperlipidemic/Statin",
+      "indication": "Hyperlipidemia",
+      "schedule": "",
+      "notes": ""
+      },
+      "132": {
+      "brandName": "Aldactone",
+      "genericName": "spironolactone",
+      "drugClass": "Aldosterone antagonist",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "133": {
+      "brandName": "Enulose",
+      "genericName": "Lactulose",
+      "drugClass": "Non-absorbable synthetic disaccharide",
+      "indication": "Constipation",
+      "schedule": "",
+      "notes": ""
+      },
+      "134": {
+      "brandName": "Benicar",
+      "genericName": "olmesartan",
+      "drugClass": "Angiotensin II receptor blocker (ARB)",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "135": {
+      "brandName": "Cozaar",
+      "genericName": "losartan",
+      "drugClass": "Angiotensin II receptor blocker (ARB)",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "136": {
+      "brandName": "Diovan",
+      "genericName": "valsartan",
+      "drugClass": "Angiotensin II receptor blocker (ARB)",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "137": {
+      "brandName": "Micardis",
+      "genericName": "telmisartan",
+      "drugClass": "Angiotensin II receptor blocker (ARB)",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "138": {
+      "brandName": "Catapres",
+      "genericName": "clonidine",
+      "drugClass": "Alpha agonist",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "139": {
+      "brandName": "Cardizem CD or Tiazac",
+      "genericName": "diltiazem",
+      "drugClass": "Calcium channel blocker",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "140": {
+      "brandName": "Calan SR",
+      "genericName": "verapamil",
+      "drugClass": "Calcium channel blocker",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "141": {
+      "brandName": "Apresoline",
+      "genericName": "hydralazine",
+      "drugClass": "Vasodilator",
+      "indication": "Hypertension",
+      "schedule": "",
+      "notes": ""
+      },
+      "142": {
+      "brandName": "Androderm or Androgel",
+      "genericName": "testosterone patch (Androderm) or testosterone gel (Androgel)",
+      "drugClass": "Androgen",
+      "indication": "Hypogonadism",
+      "schedule": "CIII",
+      "notes": ""
+      },
+      "143": {
+      "brandName": "Qsymia",
+      "genericName": "phentermine/topiramate",
+      "drugClass": "Sympathomimetic amine/anticonvulsant",
+      "indication": "Obesity",
+      "schedule": "",
+      "notes": ""
+      },
+      "144": {
+      "brandName": "Adipex-P",
+      "genericName": "phentermine",
+      "drugClass": "Sympathomimetic amine",
+      "indication": "Obesity",
+      "schedule": "CIV",
+      "notes": ""
+      },
+      "145": {
+      "brandName": "Contrave",
+      "genericName": "naltrexone/bupropion",
+      "drugClass": "Opioid antagonist and antidepressant",
+      "indication": "Obesity",
+      "schedule": "",
+      "notes": ""
+      },
+      "146": {
+      "brandName": "Phenergan",
+      "genericName": "promethazine",
+      "drugClass": "Antiemetic",
+      "indication": "Nausea/vomiting",
+      "schedule": "",
+      "notes": ""
+      },
+      "147": {
+      "brandName": "Zofran",
+      "genericName": "ondansetron",
+      "drugClass": "Antiemetic",
+      "indication": "Nausea/vomiting",
+      "schedule": "",
+      "notes": ""
+      },
+      "148": {
+      "brandName": "Reglan",
+      "genericName": "metoclopramide",
+      "drugClass": "Antiemetic",
+      "indication": "Nausea/vomiting or gastroparesis",
+      "schedule": "",
+      "notes": ""
+      },
+      "149": {
+      "brandName": "Calciferol",
+      "genericName": "ergocalciferol",
+      "drugClass": "Vitamin D2",
+      "indication": "Vitamin D deficiency",
+      "schedule": "",
+      "notes": ""
+      },
+      "150": {
+      "brandName": "K-Tab or Klor-Con",
+      "genericName": "potassium",
+      "drugClass": "Potassium replacement",
+      "indication": "Hypokalemia",
+      "schedule": "",
+      "notes": ""
+      },
+      "151": {
+      "brandName": "Omnicef",
+      "genericName": "cefdinir",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial Infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "152": {
+      "brandName": "Chantix",
+      "genericName": "varenicline",
+      "drugClass": "Nicotine receptor partial agonist",
+      "indication": "Tobacco cessation",
+      "schedule": "",
+      "notes": ""
+      },
+      "153": {
+      "brandName": "Narcan or Evzio",
+      "genericName": "naloxone",
+      "drugClass": "Opioid antagonist",
+      "indication": "Opioid overdose",
+      "schedule": "",
+      "notes": ""
+      },
+      "154": {
+      "brandName": "Suboxone",
+      "genericName": "buprenorphine/naloxone",
+      "drugClass": "Opioid partial agonist/antagonist",
+      "indication": "Substance abuse disorder",
+      "schedule": "CIII",
+      "notes": ""
+      },
+      "155": {
+      "brandName": "Fosamax",
+      "genericName": "alendronate",
+      "drugClass": "Bisphosphonate",
+      "indication": "Osteoporosis",
+      "schedule": "",
+      "notes": ""
+      },
+      "156": {
+      "brandName": "Boniva",
+      "genericName": "ibandronate",
+      "drugClass": "Bisphosphonate",
+      "indication": "Osteoporosis",
+      "schedule": "",
+      "notes": ""
+      },
+      "157": {
+      "brandName": "Actonel",
+      "genericName": "risedronate",
+      "drugClass": "Bisphosphonate",
+      "indication": "Osteoporosis",
+      "schedule": "",
+      "notes": ""
+      },
+      "158": {
+      "brandName": "Ditropan",
+      "genericName": "oxybutynin",
+      "drugClass": "Antispasmodic",
+      "indication": "Overactive bladder",
+      "schedule": "",
+      "notes": ""
+      },
+      "159": {
+      "brandName": "Requip",
+      "genericName": "ropinirole",
+      "drugClass": "Dopamine agonist",
+      "indication": "Parkinson’s Disease (PD) or restless leg syndrome (RLS)",
+      "schedule": "",
+      "notes": ""
+      },
+      "160": {
+      "brandName": "Mirapex",
+      "genericName": "pramipexole",
+      "drugClass": "Dopamine agonist",
+      "indication": "Parkinson’s Disease (PD) or restless leg syndrome (RLS)",
+      "schedule": "",
+      "notes": ""
+      },
+      "161": {
+      "brandName": "Viagra",
+      "genericName": "sildenafil",
+      "drugClass": "Phosphodiesterase-5 (PDE-5) inhibitor",
+      "indication": "Erectile dysfunction (ED)",
+      "schedule": "",
+      "notes": ""
+      },
+      "162": {
+      "brandName": "Cialis",
+      "genericName": "tadalafil",
+      "drugClass": "Phosphodiesterase-5 (PDE-5) inhibitor",
+      "indication": "Erectile dysfunction (ED)",
+      "schedule": "",
+      "notes": ""
+      },
+      "163": {
+      "brandName": "Levitra",
+      "genericName": "vardenafil",
+      "drugClass": "Phosphodiesterase-5 (PDE-5) inhibitor",
+      "indication": "Erectile dysfunction (ED)",
+      "schedule": "",
+      "notes": ""
+      },
+      "164": {
+      "brandName": "Plaquenil",
+      "genericName": "hydroxychloroquine",
+      "drugClass": "Anti-inflammatory",
+      "indication": "Rheumatoid arthritis",
+      "schedule": "",
+      "notes": ""
+      },
+      "165": {
+      "brandName": "Otrexup or Trexall",
+      "genericName": "methotrexate",
+      "drugClass": "Immunosuppressant",
+      "indication": "Rheumatoid arthritis",
+      "schedule": "",
+      "notes": ""
+      },
+      "166": {
+      "brandName": "Prograf",
+      "genericName": "tacrolimus",
+      "drugClass": "Immunosuppressant",
+      "indication": "Immunosuppressant",
+      "schedule": "",
+      "notes": ""
+      },
+      "167": {
+      "brandName": "Depakote",
+      "genericName": "divalproex",
+      "drugClass": "Anticonvulsant",
+      "indication": "Seizures",
+      "schedule": "",
+      "notes": ""
+      },
+      "168": {
+      "brandName": "Lamictal",
+      "genericName": "lamotrigine",
+      "drugClass": "Anticonvulsant",
+      "indication": "Seizures",
+      "schedule": "",
+      "notes": ""
+      },
+      "169": {
+      "brandName": "Keppra",
+      "genericName": "levetiracetam",
+      "drugClass": "Anticonvulsant",
+      "indication": "Seizures",
+      "schedule": "",
+      "notes": ""
+      },
+      "170": {
+      "brandName": "Dilantin",
+      "genericName": "phenytoin",
+      "drugClass": "Anticonvulsant",
+      "indication": "Seizures",
+      "schedule": "",
+      "notes": ""
+      },
+      "171": {
+      "brandName": "Trileptal",
+      "genericName": "oxcarbazepine",
+      "drugClass": "Anticonvulsant",
+      "indication": "Seizures",
+      "schedule": "",
+      "notes": ""
+      },
+      "172": {
+      "brandName": "Topamax",
+      "genericName": "topiramate",
+      "drugClass": "Anticonvulsant",
+      "indication": "Seizures or migraines",
+      "schedule": "",
+      "notes": ""
+      },
+      "173": {
+      "brandName": "Adderall",
+      "genericName": "amphetamine salts",
+      "drugClass": "Central Nervous System (CNS) stimulant",
+      "indication": "Attention Deficit Hyperactivity Disorder (ADHD)",
+      "schedule": "CII",
+      "notes": ""
+      },
+      "174": {
+      "brandName": "Ritalin",
+      "genericName": "methylphenidate",
+      "drugClass": "Central Nervous System (CNS) stimulant",
+      "indication": "Attention Deficit Hyperactivity Disorder (ADHD)",
+      "schedule": "CII",
+      "notes": ""
+      },
+      "175": {
+      "brandName": "Vyvanse",
+      "genericName": "lisdexamfetamine",
+      "drugClass": "Central Nervous System (CNS) stimulant",
+      "indication": "Attention Deficit Hyperactivity Disorder (ADHD)",
+      "schedule": "CII",
+      "notes": ""
+      },
+      "176": {
+      "brandName": "Arimidex",
+      "genericName": "anastrozole",
+      "drugClass": "Nonsteroidal aromatase inhibitor",
+      "indication": "Breast cancer",
+      "schedule": "",
+      "notes": ""
+      },
+      "177": {
+      "brandName": "Namenda",
+      "genericName": "memantine",
+      "drugClass": "N-methyl-D-aspartate receptor blocker (NMDA receptor blocker)",
+      "indication": "Alzheimer’s disease",
+      "schedule": "",
+      "notes": ""
+      },
+      "178": {
+      "brandName": "Aricept",
+      "genericName": "donepezil",
+      "drugClass": "Cholinesterase inhibitor",
+      "indication": "Alzheimer’s disease",
+      "schedule": "",
+      "notes": ""
+      },
+      "179": {
+      "brandName": "Cordarone",
+      "genericName": "amiodarone",
+      "drugClass": "Anti-arrhythmic",
+      "indication": "Arrhythmias",
+      "schedule": "",
+      "notes": ""
+      },
+      "180": {
+      "brandName": "Valtrex",
+      "genericName": "valacyclovir",
+      "drugClass": "Antiviral",
+      "indication": "Viral infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "181": {
+      "brandName": "Zovirax",
+      "genericName": "acyclovir",
+      "drugClass": "Antiviral",
+      "indication": "Viral infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "182": {
+      "brandName": "Estrace",
+      "genericName": "estradiol",
+      "drugClass": "Estrogen",
+      "indication": "Hormone replacement therapy (HRT)",
+      "schedule": "",
+      "notes": ""
+      },
+      "183": {
+      "brandName": "Premarin",
+      "genericName": "conjugated estrogens",
+      "drugClass": "Estrogen",
+      "indication": "Hormone replacement therapy (HRT)",
+      "schedule": "",
+      "notes": ""
+      },
+      "184": {
+      "brandName": "Ortho-Tri-Cyclen",
+      "genericName": "norgestimate/ethinyl estradiol",
+      "drugClass": "Progestin/estrogen",
+      "indication": "Hormonal contraception",
+      "schedule": "",
+      "notes": ""
+      },
+      "185": {
+      "brandName": "Desogen",
+      "genericName": "desogestrel/estradiol",
+      "drugClass": "Progestin/estrogen",
+      "indication": "Hormonal contraception",
+      "schedule": "",
+      "notes": ""
+      },
+      "186": {
+      "brandName": "Yaz Drospirenone-Ethinyl estradiol",
+      "genericName": "Progeserone and estrogen",
+      "drugClass": "Hormonal Contraception",
+      "indication": "",
+      "schedule": "",
+      "notes": ""
+      },
+      "187": {
+      "brandName": "Micronor",
+      "genericName": "norethindrone",
+      "drugClass": "Progestin",
+      "indication": "Hormonal contraception",
+      "schedule": "",
+      "notes": ""
+      },
+      "188": {
+      "brandName": "Depo-Provera",
+      "genericName": "medroxyprogesterone",
+      "drugClass": "Progestin",
+      "indication": "Hormonal contraception",
+      "schedule": "",
+      "notes": ""
+      },
+      "189": {
+      "brandName": "Ceftin",
+      "genericName": "cefuroxime",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "190": {
+      "brandName": "Flagyl",
+      "genericName": "metronidazole",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "191": {
+      "brandName": "Avelox",
+      "genericName": "moxifloxacin",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "192": {
+      "brandName": "Levaquin",
+      "genericName": "levofloxacin",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "193": {
+      "brandName": "Macrodantin",
+      "genericName": "nitrofurantoin",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "194": {
+      "brandName": "Cleocin",
+      "genericName": "clindamycin",
+      "drugClass": "Antibiotic",
+      "indication": "Bacterial infection",
+      "schedule": "",
+      "notes": ""
+      },
+      "195": {
+      "brandName": "Haldol",
+      "genericName": "haloperidol",
+      "drugClass": "Antipsychotic",
+      "indication": "Mood disorder",
+      "schedule": "",
+      "notes": ""
+      },
+      "196": {
+      "brandName": "Risperdal",
+      "genericName": "risperidone",
+      "drugClass": "Antipsychotic",
+      "indication": "Mood disorder",
+      "schedule": "",
+      "notes": ""
+      },
+      "197": {
+      "brandName": "Abilify",
+      "genericName": "aripiprazole",
+      "drugClass": "Antipsychotic",
+      "indication": "Mood disorder",
+      "schedule": "",
+      "notes": ""
+      },
+      "198": {
+      "brandName": "Seroquel",
+      "genericName": "quetiapine",
+      "drugClass": "Antipsychotic",
+      "indication": "Mood disorder",
+      "schedule": "",
+      "notes": ""
+      },
+      "199": {
+      "brandName": "Zyprexa",
+      "genericName": "olanzapine",
+      "drugClass": "Antipsychotic",
+      "indication": "Mood disorder",
+      "schedule": "",
+      "notes": ""
+      },
+      "200": {
+      "brandName": "Bentyl",
+      "genericName": "dicyclomine",
+      "drugClass": "Antispasmodic",
+      "indication": "Irritable bowel syndrome (IBS)",
+      "schedule": "",
+      "notes": ""
+      }
+}
+}

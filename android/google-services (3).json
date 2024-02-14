@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "604957909265",
+    "firebase_url": "https://studypharm-a418c-default-rtdb.firebaseio.com",
+    "project_id": "studypharm-a418c",
+    "storage_bucket": "studypharm-a418c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604957909265:android:59881d22b6c0e10173ecb0",
+        "android_client_info": {
+          "package_name": "com.example.studypharm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSm_8dN98qDFPnWBtN-n6mm2FAicyP7yY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604957909265:android:4824ff24f27799b273ecb0",
+        "android_client_info": {
+          "package_name": "com.example.studypharm1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSm_8dN98qDFPnWBtN-n6mm2FAicyP7yY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
