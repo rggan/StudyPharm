@@ -18,10 +18,10 @@ class Drug {
   final String id;
   final String brandName;
   final String genericName;
-  final String? drugClass;
+  final String drugClass;
   final String? indication;
   final String? schedule;
-  final String? notes;
+  String? notes;    // makes it mutable
 
   Drug({
     required this.id,
@@ -30,7 +30,7 @@ class Drug {
     required this.drugClass,
     required this.indication,
     required this.schedule,
-    required this.notes,
+    this.notes,
   });
 }
 
@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Firestore Data Example'),
+          title: Text('StudyPharm'),
         ),
         body: Center(
           child: ElevatedButton(
@@ -80,7 +80,7 @@ class MyApp extends StatelessWidget {
     try {
       QuerySnapshot querySnapshot = await drugsCollection.get();
       int drugCount = querySnapshot.size;
-      if (drugCount == 0 || drugCount < 200) {
+      if (drugCount == 0) {
         final drugsString =
             await rootBundle.loadString('lib/top_200_drugs.json');
         final Map<String, dynamic> jsonData = json.decode(drugsString);
@@ -99,7 +99,7 @@ class MyApp extends StatelessWidget {
         });
         print('Data added success');
       } else {
-        print('Collection not empty and at least 200 drugs');
+        print('Collection not empty');
       }
     } catch (e) {
       print("Error loading JSON file: $e");
@@ -181,28 +181,68 @@ class DrugListPage extends StatelessWidget {
   }
 }
 
-class DrugDetailsPage extends StatelessWidget {
+class DrugDetailsPage extends StatefulWidget {
   final Drug drug;
 
   DrugDetailsPage({required this.drug});
+  
+  @override
+  _DrugDetailsPageState createState() => _DrugDetailsPageState();
+}
+
+
+class _DrugDetailsPageState extends State<DrugDetailsPage>{
+  late TextEditingController notesController;
+
+  @override
+  void initState() {
+    super.initState();
+    notesController = TextEditingController(text: widget.drug.notes);
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(drug.brandName),
+        title: Text(widget.drug.brandName),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('Generic Name: ${drug.genericName}'),
-          Text('Drug Class: ${drug.drugClass}'),
-          Text('Indication: ${drug.indication}'),
-          Text('Schedule: ${drug.schedule}'),
-          Text('Notes: ${drug.notes}'),
-          // Add more details as needed
+          Text('Generic Name: ${widget.drug.genericName}'),
+          Text('Drug Class: ${widget.drug.drugClass}'),
+          Text('Indication: ${widget.drug.indication}'),
+          Text('Schedule: ${widget.drug.schedule}'),
+          TextField(
+            controller: notesController,
+            decoration: InputDecoration(labelText: 'Notes')),
+          ElevatedButton(onPressed: () {saveNotes();}, child: Text('Save Notes'),)
         ],
       ),
     );
   }
+
+  void saveNotes() async {
+    // Assuming you have a method to update the notes in the database
+    try {
+      await db.collection('drugs').doc(widget.drug.id).update({
+        'notes': notesController.text,
+      });
+
+      // Update the local state with the new notes
+      setState(() {
+        widget.drug.notes = notesController.text;
+      });
+
+      // Show a confirmation message
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Notes saved successfully'),
+        ),
+      );
+    } catch (e) {
+      print('Error saving notes: $e');
+    }
+  }
+
 }
