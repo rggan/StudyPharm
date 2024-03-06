@@ -40,6 +40,7 @@ class NavigatorApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue)),
       home: Navigator(
         onGenerateRoute: (settings) {
           return MaterialPageRoute(
@@ -59,7 +60,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('StudyPharm'),
+          title: const Text('StudyPharm'),
         ),
         body: Center(
           child: ElevatedButton(
@@ -67,7 +68,7 @@ class MyApp extends StatelessWidget {
               addDrugData();
               fetchDrugList(context); // Pass the context to fetchDrugList
             },
-            child: Text('Fetch Data'),
+            child: const Text('Fetch Data'),
           ),
         ),
       ),
@@ -93,7 +94,7 @@ class MyApp extends StatelessWidget {
             "drugClass": drug['drugClass'] ?? '',
             "indication": drug['indication'] ?? '',
             "schedule": drug['schedule'] ?? '',
-            "notes": drug['notes'] ?? 'Enter your notes here:',
+            "notes": drug['notes'] ?? '',
           };
           drugsCollection.add(drugData);
         });
@@ -144,31 +145,86 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class DrugListPage extends StatelessWidget {
+class DrugListPage extends StatefulWidget {
   final List<Drug> drugsList;
 
   DrugListPage({required this.drugsList});
 
   @override
+  DrugListPageState createState() => DrugListPageState();
+}
+
+class DrugListPageState extends State <DrugListPage> {
+  final ScrollController _scrollController = ScrollController();  
+  TextEditingController searchController = TextEditingController();
+  List<Drug> filteredDrugs = [];
+
+  @override
+  void initState() {
+    super.initState();
+    filteredDrugs = widget.drugsList;
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Drug List'),
+        title: const Text('Drug List'),
       ),
-      body: ListView.builder(
-        itemCount: drugsList.length,
-        itemBuilder: (context, index) {
-          Drug drug = drugsList[index];
-          return ListTile(
-            title: Text(drug.brandName),
-            onTap: () {
-              // Navigate to the drug details page
-              navigateToDrugDetails(context, drug); // Pass the context
-            },
-          );
-        },
+      body: Column(
+        children: [
+          // Search Bar
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: TextField(
+              controller: searchController,
+              onChanged: onSearchTextChanged,
+              decoration: InputDecoration(
+                labelText: 'Search Drug',
+                prefixIcon: Icon(Icons.search),
+              ),
+            ),
+          ),
+          // Drug List
+          Expanded(
+            child: Scrollbar(
+              controller: _scrollController,
+              trackVisibility: true,
+              thumbVisibility: true,
+              thickness: 20,
+              radius: const Radius.circular(20),
+              child: ListView.builder(
+                controller: _scrollController,
+                itemCount: filteredDrugs.length,
+                itemBuilder: (context, index) {
+                  Drug drug = filteredDrugs[index];
+                  return ListTile(
+                    title: Text(
+                      drug.brandName,
+                      style: const TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    onTap: () {
+                      navigateToDrugDetails(context, drug);
+                    },
+                  );
+                },
+              ),
+            ),
+          ),
+        ],
       ),
     );
+  }
+
+  void onSearchTextChanged(String query) {
+    query = query.toLowerCase();
+    setState(() {
+      filteredDrugs = widget.drugsList
+          .where((drug) =>
+              drug.brandName.toLowerCase().contains(query) ||
+              drug.genericName.toLowerCase().contains(query))
+          .toList();
+    });
   }
 
   void navigateToDrugDetails(BuildContext context, Drug drug) {
@@ -197,33 +253,156 @@ class _DrugDetailsPageState extends State<DrugDetailsPage>{
   @override
   void initState() {
     super.initState();
-    notesController = TextEditingController(text: widget.drug.notes);
+    // Check if there are existing notes
+    if (widget.drug.notes != null && widget.drug.notes!.isNotEmpty) {
+      // If there are existing notes, set them
+      notesController = TextEditingController(text: widget.drug.notes);
+    } 
+    else {
+      // If no existing notes, set the default text
+      notesController = TextEditingController(text: '');
+    }
   }
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.drug.brandName),
-      ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text('Generic Name: ${widget.drug.genericName}'),
-          Text('Drug Class: ${widget.drug.drugClass}'),
-          Text('Indication: ${widget.drug.indication}'),
-          Text('Schedule: ${widget.drug.schedule}'),
-          TextField(
-            controller: notesController,
-            decoration: InputDecoration(labelText: 'Notes')),
-          ElevatedButton(onPressed: () {saveNotes();}, child: Text('Save Notes'),)
-        ],
-      ),
-    );
-  }
+    Widget build(BuildContext context) {
+      return Scaffold(
+        appBar: AppBar(
+          title: Text(
+            widget.drug.brandName,
+            style: const TextStyle(
+              fontSize: 30.0,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+        body: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              RichText(
+                  text: TextSpan(
+                    style: const TextStyle(
+                      fontSize: 16.0,
+                      color: Colors.black, // Set your desired text color
+                    ),
+                    children: <TextSpan>[
+                      const TextSpan(
+                        text: 'Generic Name: ',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      TextSpan(text: '${widget.drug.genericName}'),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 16),
+                RichText(
+                  text: TextSpan(
+                    style: const TextStyle(
+                      fontSize: 16.0,
+                      color: Colors.black, // Set your desired text color
+                    ),
+                    children: <TextSpan>[
+                      const TextSpan(
+                        text: 'Drug Class: ',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      TextSpan(text: '${widget.drug.drugClass}'),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 16),
+                RichText(
+                  text: TextSpan(
+                    style: const TextStyle(
+                      fontSize: 16.0,
+                      color: Colors.black, // Set your desired text color
+                    ),
+                    children: <TextSpan>[
+                      const TextSpan(
+                        text: 'Indication: ',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      TextSpan(text: '${widget.drug.indication}'),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 16),
+                RichText(
+                  text: TextSpan(
+                    style: const TextStyle(
+                      fontSize: 16.0,
+                      color: Colors.black, // Set your desired text color
+                    ),
+                    children: <TextSpan>[
+                      const TextSpan(
+                        text: 'Schedule: ',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      TextSpan(text: getScheduleText(widget.drug.schedule)),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 16),
+
+              // NOTES SECTION
+              const Center(child: Text(
+                'Notes',
+                style: TextStyle(
+                  decoration: TextDecoration.underline,
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),),
+              const SizedBox(height: 8.0),
+              Container(
+                padding: const EdgeInsets.all(10.0),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: Colors.blue,
+                    width: 3.0,
+                  ),
+                  borderRadius: BorderRadius.circular(8.0),
+                ),
+                child: TextField(
+                  controller: notesController,
+                  decoration: const InputDecoration(
+                    hintText: "Enter your notes here:",
+                    // border: InputBorder.none,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 16.0),
+              Center(
+                child: ElevatedButton(
+                  onPressed: saveNotes,
+                  style: ElevatedButton.styleFrom(
+                    textStyle: const TextStyle(fontSize: 18.0),
+                  ),
+                  child: const Text('Save Notes'),
+                ),
+              ),
+            ],
+          ),
+        ),
+      );
+    }
+
+  // helper function to 
+  String getScheduleText(String? schedule) {
+    return schedule != null && schedule.isNotEmpty ? schedule : 'N/A';
+  } 
 
   void saveNotes() async {
-    // Assuming you have a method to update the notes in the database
     try {
       await db.collection('drugs').doc(widget.drug.id).update({
         'notes': notesController.text,
