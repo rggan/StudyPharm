@@ -10,8 +10,8 @@
       "notes": ""
       },
       "2": {
-      "brandName": "Lipitor",
-      "genericName": "atorvastatin",
+      "brandName": "Crestor",
+      "genericName": "rosuvastatin",
       "drugClass": "HMG Co-A reductase inhibitor (statin)",
       "indication": "Hyperlipidemia",
       "schedule": "",
@@ -40,6 +40,14 @@
       "indication": "Hyperlipidemia",
       "schedule": "",
       "notes": ""
+      },
+      "6": {
+        "brandName": "Atarax HCl",
+        "genericName": "hydroxyzine",
+        "drugClass": "Antihistamine",
+        "indication": "Allergies",
+        "schedule": "",
+        "notes": ""
       },
       "7": {
       "brandName": "Amoxil",
