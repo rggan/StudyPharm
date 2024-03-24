@@ -1,8 +1,12 @@
-# studypharm
+# StudyPharm
 
 A new Flutter project.
 
-## Getting Started
+## Description
+
+## Figma Prototype
+![image](https://github.com/rggan/StudyPharm/assets/77026454/cc5646cf-060d-48d3-af5e-39af83168d9b)
+
 
 This project is a starting point for a Flutter application.
 
